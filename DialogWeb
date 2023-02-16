@@ -1,21 +1,35 @@
-<marquee behavior="scroll" direction="right" scrollamount="10">
-    <h2 link='red'><b><a href="https://www.apkmoddone.com/" style="color: red;">Mod by ApkModDone</a></b></h2>
-</marquee>
-<div>
-    Chào mừng bạn đến với trang web <a href="https://www.apkmoddone.com/" style="color: red;">ApkModDone</a><br>
-    Trang web này được tạo ra nhằm cung cấp cho bạn những bản Mod của các ứng dụng và trò chơi Android, cho phép các
-        tính năng và chức năng cao cấp mà không cần trả phí<br>
-    <div style="margin-left:10px;width:auto"><b style="color: red;">Team Mod <a href="https://www.apkmoddone.com/"
-                style="color: red;">ApkModDone</a> :</b>
-        <div style="margin-left:10px;">
-            <ul style="list-style-type:circle;line-height:180%">
-                <li><a href="https://www.facebook.com/apkmoddone">Fanpage Facebook</a></li>
-                <li><a href="https://www.facebook.com/thichsotvedem">Thích Sốt Về Đêm</a></li>
-                <li><a href="https://www.facebook.com/keluatinh.pro/">Huỳnh Ngọc</a></li>
-                <li><a href="https://www.facebook.com/juvia.rem">Trường Mio</a></li>
-            </ul>
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <marquee behavior="scroll" direction="right" scrollamount="10">
+        <h2 link='red'><b><a href="https://www.apkmoddone.com/" style="color: red;">Mod by ApkModDone</a></b></h2>
+    </marquee>
+    <div>
+        <p>Chào mừng bạn đến với trang web <a href="https://www.apkmoddone.com/" style="color: red;">ApkModDone</a></p>
+        <p>Trang web này được tạo ra nhằm cung cấp cho bạn những bản Mod của các ứng dụng và trò chơi Android, cho phép
+            các
+            tính năng và chức năng cao cấp mà không cần trả phí</p>
+        <div style="margin-left:10px;width:auto"><b style="color: red;">Team Mod <a href="https://www.apkmoddone.com/"
+                    style="color: red;">ApkModDone</a> :</b>
+            <div style="margin-left:10px;">
+                <ul style="list-style-type:circle;line-height:180%">
+                    <li><a href="https://www.facebook.com/apkmoddone">Fanpage Facebook</a></li>
+                    <li><a href="https://www.facebook.com/thichsotvedem">Thích Sốt Về Đêm</a></li>
+                    <li><a href="https://www.facebook.com/keluatinh.pro/">Huỳnh Ngọc</a></li>
+                    <li><a href="https://www.facebook.com/juvia.rem">Trường Mio</a></li>
+                </ul>
+            </div>
         </div>
+        <p><b style="color:red;">Lưu ý : </b>Việc sử dụng phiên bản Mod có thể ảnh hưởng đến nhà phát triển vì vậy nếu
+            cảm
+            thấy hài lòng về ứng dụng hảy ủng hộ nhà phát triển bằng cách đánh giá 5 sao hoặc mua nó</p>
     </div>
-    <p><b style="color:red;">Lưu ý :</b>Việc sử dụng phiên bản Mod có thể ảnh hưởng đến nhà phát triển vì vậy nếu cảm
-        thấy hài lòng về ứng dụng hảy ủng hộ nhà phát triển bằng cách đánh giá 5 sao hoặc mua nó</p>
-</div>
+</body>
+
+</html>
