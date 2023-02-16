@@ -1,7 +1,7 @@
 <marquee behavior="scroll" direction="right" scrollamount="10">
     <h1 link='red'><b><a href="https://www.apkmoddone.com/" style="color: red;">Mod by ApkModDone</a></b></h1>
 </marquee>
-<div style="margin-left:45px;width:auto">
+<div>
     <p>Chào mừng bạn đến với trang web <a href="https://www.apkmoddone.com/" style="color: red;">ApkModDone</a></p>
     <p>Trang web này được tạo ra nhằm cung cấp cho bạn những bản Mod của các ứng dụng và trò chơi Android, cho phép các
         tính năng và chức năng cao cấp mà không cần trả phí</p>
