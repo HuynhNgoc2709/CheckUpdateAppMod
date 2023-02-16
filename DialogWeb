@@ -1,5 +1,5 @@
 <marquee behavior="scroll" direction="right" scrollamount="10">
-    <h1 link='red'><b><a href="https://www.apkmoddone.com/" style="color: red;">Mod by ApkModDone</a></b></h1>
+    <h2 link='red'><b><a href="https://www.apkmoddone.com/" style="color: red;">Mod by ApkModDone</a></b></h2>
 </marquee>
 <div>
     <p>Chào mừng bạn đến với trang web <a href="https://www.apkmoddone.com/" style="color: red;">ApkModDone</a></p>
@@ -8,11 +8,13 @@
     <br>
     <div style="margin-left:10px;width:auto">Các thành viên trong <b style="color: red;"><a
                 href="https://www.apkmoddone.com/" style="color: red;">ApkModDone</a> - Team Mod :</b>
-        <div style="margin-left:10px;width:auto">
-            <p><a href="https://www.facebook.com/apkmoddone">Fanpage Facebook</a></p>
-            <p><a href="https://www.facebook.com/thichsotvedem">Thích Sốt Về Đêm</a></p>
-            <p><a href="https://www.facebook.com/keluatinh.pro/">Huỳnh Ngọc</a></p>
-            <p><a href="https://www.facebook.com/juvia.rem">Trường Mio</a></p>
+        <div style="margin-left:10px;">
+            <ul style="list-style-type:circle">
+                <li><a href="https://www.facebook.com/apkmoddone">Fanpage Facebook</a></li>
+                <li><a href="https://www.facebook.com/thichsotvedem">Thích Sốt Về Đêm</a></li>
+                <li><a href="https://www.facebook.com/keluatinh.pro/">Huỳnh Ngọc</a></li>
+                <li><a href="https://www.facebook.com/juvia.rem">Trường Mio</a></li>
+            </ul>
         </div>
     </div>
     <p><b style="color:red;">Lưu ý :</b>Việc sử dụng phiên bản Mod có thể ảnh hưởng đến nhà phát triển vì vậy nếu cảm
