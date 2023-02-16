@@ -1,1 +1,20 @@
-
+<marquee behavior="scroll" direction="right" scrollamount="10">
+    <h1 link='red'><b><a href="https://www.apkmoddone.com/" style="color: red;">Mod by ApkModDone</a></b></h1>
+</marquee>
+<div style="margin-left:45px;width:auto">
+    <p>Chào mừng bạn đến với trang web <a href="https://www.apkmoddone.com/" style="color: red;">ApkModDone</a></p>
+    <p>Trang web này được tạo ra nhằm cung cấp cho bạn những bản Mod của các ứng dụng và trò chơi Android, cho phép các
+        tính năng và chức năng cao cấp mà không cần trả phí</p>
+    <br>
+    <div style="margin-left:45px;width:auto">Các thành viên trong <b style="color: red;"><a
+                href="https://www.apkmoddone.com/" style="color: red;">ApkModDone</a> - Team Mod :</b>
+        <div style="margin-left:45px;width:auto">
+            <p><a href="https://www.facebook.com/apkmoddone">Fanpage Facebook</a></p>
+            <p><a href="https://www.facebook.com/thichsotvedem">Thích Sốt Về Đêm</a></p>
+            <p><a href="https://www.facebook.com/keluatinh.pro/">Huỳnh Ngọc</a></p>
+            <p><a href="https://www.facebook.com/juvia.rem">Trường Mio</a></p>
+        </div>
+    </div>
+    <p><b style="color:red;">Lưu ý :</b>Việc sử dụng phiên bản Mod có thể ảnh hưởng đến nhà phát triển vì vậy nếu cảm
+        thấy hài lòng về ứng dụng hảy ủng hộ nhà phát triển bằng cách đánh giá 5 sao hoặc mua nó</p>
+</div>
