@@ -1,0 +1,32 @@
+name: Auto Change abc.txt
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+
+jobs:
+  auto_change:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Generate random string
+        id: random_string
+        run: echo "::set-output name=random_string::$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c5)"
+
+      - name: Modify abc.txt
+        run: |
+          # Đọc tệp abc.txt và thay đổi 5 ký tự cuối cùng thành chuỗi ngẫu nhiên
+          RANDOM_STRING=$(cat abc.txt | tail -c 5)
+          NEW_STRING=$(echo "${{ steps.random_string.outputs.random_string }}${RANDOM_STRING}")
+          sed -i "s/$RANDOM_STRING/$NEW_STRING/" abc.txt
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add abc.txt
+          git commit -m "Auto change abc.txt"
+          git push
