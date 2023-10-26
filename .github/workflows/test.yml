@@ -1,4 +1,4 @@
-name: Auto Change abc.txt
+name: Auto Change logWeb
 
 on:
   schedule:
@@ -16,17 +16,21 @@ jobs:
         id: random_string
         run: echo "::set-output name=random_string::$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c5)"
 
-      - name: Modify abc.txt
+      - name: Modify logWeb
         run: |
-          # Đọc tệp abc.txt và thay đổi 5 ký tự cuối cùng thành chuỗi ngẫu nhiên
-          RANDOM_STRING=$(cat abc.txt | tail -c 5)
-          NEW_STRING=$(echo "${{ steps.random_string.outputs.random_string }}${RANDOM_STRING}")
-          sed -i "s/$RANDOM_STRING/$NEW_STRING/" abc.txt
+          # Đọc tệp logWeb
+          CONTENT=$(cat logWeb)
+          # Tạo chuỗi ngẫu nhiên 5 ký tự
+          RANDOM_STRING=$(echo "${{ steps.random_string.outputs.random_string }}")
+          # Thay thế 5 ký tự cuối cùng bằng chuỗi ngẫu nhiên mới
+          NEW_CONTENT="${CONTENT:0:-5}${RANDOM_STRING}"
+          echo "$NEW_CONTENT" > logWeb
 
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add abc.txt
-          git commit -m "Auto change abc.txt"
+          git add logWeb
+          git commit -m "Auto change logWeb"
           git push
+          
