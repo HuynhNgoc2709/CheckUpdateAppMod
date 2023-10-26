@@ -1,0 +1,33 @@
+name: Auto Change DialogWeb-Vi-En
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+
+jobs:
+  auto_change:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Generate random string
+        id: random_string
+        run: echo "::set-output name=random_string::$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c5)"
+
+      - name: Modify DialogWeb-Vi-En
+        run: |
+          CONTENT=$(cat DialogWeb-Vi-En)
+          RANDOM_STRING=$(echo "${{ steps.random_string.outputs.random_string }}")
+          NEW_CONTENT="${CONTENT:0:-5}${RANDOM_STRING}"
+          echo "$NEW_CONTENT" > DialogWeb-Vi-En
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add DialogWeb-Vi-En
+          git commit -m "Auto change DialogWeb-Vi-En"
+          git push
+          
