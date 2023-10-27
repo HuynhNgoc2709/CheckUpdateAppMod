@@ -2,7 +2,7 @@ name: Auto Change DialogWeb-Vi-En
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   auto_change:
