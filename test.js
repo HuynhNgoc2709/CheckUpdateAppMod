@@ -244,7 +244,7 @@ for (let i = 0x1; i <= 0xb; i++) {
                                                 getid(_0x1c7fea(0x1a3))[_0x1c7fea(0x1a0)](_0x1c7fea(0x192));
                                             }, timeADS);
                                 }, timeADS));
-                        }, 0x64),
+                        }, timeADS),
                         _0xf85b25 = setTimeout(() => {
                             var _0x4f3140 = _0xdb93e3;
                             clearInterval(_0x1bee1f), qSel(_0x4f3140(0x1d0))[_0x4f3140(0x1b8)](_0x4f3140(0x19a), _0x4f3140(0x1df) + txtAd3 + _0x4f3140(0x1c0)), stC(_0x4f3140(0x1a9));
