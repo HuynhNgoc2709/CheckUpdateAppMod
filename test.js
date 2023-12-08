@@ -242,8 +242,8 @@ for (let i = 0x1; i <= 0xb; i++) {
                                             setTimeout(() => {
                                                 var _0x1c7fea = _0x536de8;
                                                 getid(_0x1c7fea(0x1a3))[_0x1c7fea(0x1a0)](_0x1c7fea(0x192));
-                                            }, tDelay);
-                                }, 0x7d0));
+                                            }, timeADS);
+                                }, timeADS));
                         }, 0x64),
                         _0xf85b25 = setTimeout(() => {
                             var _0x4f3140 = _0xdb93e3;
@@ -268,8 +268,8 @@ for (let i = 0x1; i <= 0xb; i++) {
                                                     setTimeout(() => {
                                                         var _0x21d491 = _0x9b302f;
                                                         getid(_0x21d491(0x1a3))["removeAttribute"]("disabled");
-                                                    }, tDelay);
-                                        }, 0x1388);
+                                                    }, timeADS);
+                                        }, timeADS);
                                 };
                             qSel(xAD)["addEventListener"](_0x36a09b(0x1c8), () => {
                                 _0x1db7a9();
