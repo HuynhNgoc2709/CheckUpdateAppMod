@@ -248,7 +248,7 @@ for (let i = 0x1; i <= 0xb; i++) {
                         _0xf85b25 = setTimeout(() => {
                             var _0x4f3140 = _0xdb93e3;
                             clearInterval(_0x1bee1f), qSel(_0x4f3140(0x1d0))[_0x4f3140(0x1b8)](_0x4f3140(0x19a), _0x4f3140(0x1df) + txtAd3 + _0x4f3140(0x1c0)), stC(_0x4f3140(0x1a9));
-                        }, 0x3e8),
+                        }, timeADS),
                         _0x3f57c5 = setTimeout(() => {
                             var _0x36a09b = _0xdb93e3;
                             stAd(xAD), qSel(xAD)[_0x36a09b(0x1c3)][_0x36a09b(0x1ba)](_0x36a09b(0x193), _0x36a09b(0x199));
