@@ -51,7 +51,8 @@
                 href="https://play.google.com/store/apps/details?id=thisislink">tại đây</a></p>
 
         <div style="text-align: center;">
-            <a href="#" style="text-decoration: none; color: blue; font-weight: bold; animation: blink 1s infinite;">
+            <a href="#"
+                style="text-decoration: none; color: blue; font-weight: bold; font-size: 20px; animation: blink 1s infinite;">
                 Click me
             </a>
         </div>
