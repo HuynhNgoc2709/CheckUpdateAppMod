@@ -1,54 +1,61 @@
 <!DOCTYPE html>
+
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <style type="text/css">
-      @font-face {
-      font-family: MyFont;
-      src: url("file:///android_asset/fonts/Roboto-Regular.ttf")
-      }
-      body {
-      font-family: MyFont;
-      font-size:medium;
-      text-align: justify;
-      }
-   </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        @font-face {
+            font-family: MyFont;
+            src: url("file:///android_asset/fonts/Roboto-Regular.ttf")
+        }
+
+        body {
+            font-family: MyFont;
+            font-size: medium;
+            text-align: justify;
+        }
+    </style>
 </head>
+
 <body>
-   <marquee behavior="scroll" direction="right" scrollamount="10">
-      <h2><b><a style="text-decoration:none;color: red;" href="https://www.apkmoddone.com/">Mod by ApkModDone</a></b>
-      </h2>
-   </marquee>
-   <div>
-      <p>Chào mừng bạn đến với trang web <a style="color: red;" href="https://www.apkmoddone.com/">ApkModDone</a></p>
-      <p>Trang web này được tạo ra nhằm cung cấp cho bạn những bản Mod của các <a style="color: red;"
-         href="https://www.apkmoddone.com/search/label/_Apps">ứng dụng</a> và <a style="color: red;"
-         href="https://www.apkmoddone.com/search/label/_Games">trò chơi</a> Android, cho phép các
-         tính năng và chức năng cao cấp mà không cần trả phí
-      </p>
-      <div style="margin-left:10px;width:auto">
-         <b style="color: red;">Team Mod <a a
-            style="text-decoration:none;color: red;" href="https://www.apkmoddone.com/">ApkModDone</a> :</b>
-         <div style="margin-left:10px;">
-            <ul style="list-style-type:circle;line-height:180%">
-               <li><a style="text-decoration:none" >Fanpage Facebook</a>
-               </li>
-               <li><a style="text-decoration:none" href="https://www.facebook.com/thichsotvedem">Thích Sốt Về
-                  Đêm</a>
-               </li>
-               <li><a style="text-decoration:none" href="https://www.facebook.com/keluatinh.pro/">Huỳnh Ngọc</a>
-               </li>
-               <li><a style="text-decoration:none" href="https://www.facebook.com/juvia.rem">Trường Mio</a></li>
-            </ul>
-         </div>
-      </div>
-      <p><b style="color:red;">Lưu ý : </b>Việc sử dụng phiên bản Mod có thể ảnh hưởng đến nhà phát triển vì vậy nếu cảm thấy hài lòng về ứng dụng hảy ủng hộ nhà phát triển bằng cách đánh giá 5 sao hoặc mua nó <a
-         href="https://play.google.com/store/apps/details?id=thisislink">tại đây</a></p>
-        
-         <a href="#" style="text-decoration: none; color: blue; font-weight: bold; animation: blink 1s infinite;">
-            Click me
-        </a>
+    <marquee behavior="scroll" direction="right" scrollamount="10">
+        <h2><b><a style="text-decoration:none;color: red;" href="https://www.apkmoddone.com/">Mod by ApkModDone</a></b>
+        </h2>
+    </marquee>
+    <div>
+        <p>Chào mừng bạn đến với trang web <a style="color: red;" href="https://www.apkmoddone.com/">ApkModDone</a></p>
+        <p>Trang web này được tạo ra nhằm cung cấp cho bạn những bản Mod của các <a style="color: red;"
+                href="https://www.apkmoddone.com/search/label/_Apps">ứng dụng</a> và <a style="color: red;"
+                href="https://www.apkmoddone.com/search/label/_Games">trò chơi</a> Android, cho phép các
+            tính năng và chức năng cao cấp mà không cần trả phí
+        </p>
+        <div style="margin-left:10px;width:auto">
+            <b style="color: red;">Team Mod <a a style="text-decoration:none;color: red;"
+                    href="https://www.apkmoddone.com/">ApkModDone</a> :</b>
+            <div style="margin-left:10px;">
+                <ul style="list-style-type:circle;line-height:180%">
+                    <li><a style="text-decoration:none">Fanpage Facebook</a>
+                    </li>
+                    <li><a style="text-decoration:none" href="https://www.facebook.com/thichsotvedem">Thích Sốt Về
+                            Đêm</a>
+                    </li>
+                    <li><a style="text-decoration:none" href="https://www.facebook.com/keluatinh.pro/">Huỳnh Ngọc</a>
+                    </li>
+                    <li><a style="text-decoration:none" href="https://www.facebook.com/juvia.rem">Trường Mio</a></li>
+                </ul>
+            </div>
+        </div>
+        <p><b style="color:red;">Lưu ý : </b>Việc sử dụng phiên bản Mod có thể ảnh hưởng đến nhà phát triển vì vậy nếu
+            cảm thấy hài lòng về ứng dụng hảy ủng hộ nhà phát triển bằng cách đánh giá 5 sao hoặc mua nó <a
+                href="https://play.google.com/store/apps/details?id=thisislink">tại đây</a></p>
+
+        <div style="text-align: center;">
+            <a href="#" style="text-decoration: none; color: blue; font-weight: bold; animation: blink 1s infinite;">
+                Click me
+            </a>
+        </div>
+
         <style>
             @keyframes blink {
                 50% {
@@ -56,7 +63,8 @@
                 }
             }
         </style>
-        
-   </div>
+
+    </div>
 </body>
+
 </html>
