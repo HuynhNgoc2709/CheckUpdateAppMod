@@ -14,11 +14,14 @@ jobs:
 
       - name: Generate random string
         id: random_string
-        run: echo "random_string = $(head /dev/urandom | tr -dc A-Za-z0-9 | head -c5)" >> $GITHUB_OUTPUT
+        run: |
+          RANDOM_STRING=$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c5)
+          echo "random_string=${RANDOM_STRING}" >> $GITHUB_ENV
+
       - name: Modify DialogWeb-Vi-En
         run: |
           CONTENT=$(cat DialogWeb-Vi-En)
-          RANDOM_STRING=$(echo "${{ steps.random_string.outputs.random_string }}")
+          RANDOM_STRING=$(echo "${{ env.random_string }}")
           NEW_CONTENT="${CONTENT:0:-5}${RANDOM_STRING}"
           echo "$NEW_CONTENT" > DialogWeb-Vi-En
 
@@ -29,4 +32,3 @@ jobs:
           git add DialogWeb-Vi-En
           git commit -m "Auto change DialogWeb-Vi-En"
           git push
-          
