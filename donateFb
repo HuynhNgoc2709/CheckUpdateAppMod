@@ -2,11 +2,13 @@
     {
         "name": "Paul",
         "id": 100000193748491,
+        "block" : false,
         "expired": 20240630
     },
     {
         "name": "Sốt",
         "id": 100004098698835,
+        "block" : false,
         "expired": 20240630
     }
 ]
